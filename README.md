@@ -1,20 +1,16 @@
-**NOTICE:** _This project is deprecated and no longer maintained. If you'd like
-to continue supporting a forked version, please reach out on Twitter
-([@kidjustino](https://twitter.com/kidjustino)) to have it listed here._
-
 GoogleMapsGeocoder
 ==================
 
-[![Latest Stable Version](https://poser.pugx.org/jstayton/google-maps-geocoder/v/stable.png)](https://packagist.org/packages/jstayton/google-maps-geocoder)
-[![Total Downloads](https://poser.pugx.org/jstayton/google-maps-geocoder/downloads.png)](https://packagist.org/packages/jstayton/google-maps-geocoder)
+[![Latest Stable Version](https://poser.pugx.org/icheques/GoogleMapsGeocoder/v/stable.png)](https://packagist.org/packages/icheques/GoogleMapsGeocoder)
+[![Total Downloads](https://poser.pugx.org/icheques/GoogleMapsGeocoder/downloads.png)](https://packagist.org/packages/icheques/GoogleMapsGeocoder)
 
 A PHP wrapper for the Google Maps Geocoding API v3.
 
 Developed by [Justin Stayton](http://justinstayton.com) while at
 [Monk Development](http://monkdev.com).
 
-*   [Documentation](http://jstayton.github.io/GoogleMapsGeocoder/classes/GoogleMapsGeocoder.html)
-*   [Release Notes](https://github.com/jstayton/GoogleMapsGeocoder/wiki/Release-Notes)
+*   [Documentation](http://iCheques.github.io/GoogleMapsGeocoder/classes/GoogleMapsGeocoder.html)
+*   [Release Notes](https://github.com/iCheques/GoogleMapsGeocoder/wiki/Release-Notes)
 
 Requirements
 ------------
@@ -28,17 +24,17 @@ Installation
 
 The recommended installation method is through
 [Composer](http://getcomposer.org/), a dependency manager for PHP. Just add
-`jstayton/google-maps-geocoder` to your project's `composer.json` file:
+`icheques/GoogleMapsGeocoder` to your project's `composer.json` file:
 
 ```json
 {
     "require": {
-        "jstayton/google-maps-geocoder": "*"
+        "icheques/GoogleMapsGeocoder": "*"
     }
 }
 ```
 
-[More details](http://packagist.org/packages/jstayton/google-maps-geocoder) can
+[More details](http://packagist.org/packages/icheques/GoogleMapsGeocoder) can
 be found over at [Packagist](http://packagist.org).
 
 ### Manually
@@ -75,7 +71,7 @@ $Geocoder->setAddress($address);
 By default, the `format` is set to `json` and the `sensor` is set to `false`.
 These values can be changed either through the constructor or after the object
 is created. See the
-[documentation](http://jstayton.github.io/GoogleMapsGeocoder/classes/GoogleMapsGeocoder.html)
+[documentation](http://iCheques.github.io/GoogleMapsGeocoder/classes/GoogleMapsGeocoder.html)
 for the complete list of API parameters that can be changed.
 
 Once all parameters are set, the final step is to send the request to the
@@ -88,7 +84,7 @@ $response = $Geocoder->geocode();
 The `geocode` method converts the response into a JSON associative array
 (default) or `SimpleXMLElement` object depending on the specified `format`. See
 the `geocode`
-[documentation](http://jstayton.github.io/GoogleMapsGeocoder/classes/GoogleMapsGeocoder.html#method_geocode)
+[documentation](http://iCheques.github.io/GoogleMapsGeocoder/classes/GoogleMapsGeocoder.html#method_geocode)
 for making the request over HTTPS or preventing conversion (instead returning
 the raw plain text response).
 

@@ -1,14 +1,19 @@
 {
-    "name": "jstayton/google-maps-geocoder",
+    "name": "icheques/google-maps-geocoder",
     "type": "library",
     "description": "A PHP wrapper for the Google Maps Geocoding API v3.",
     "keywords": ["google", "map", "maps", "gmap", "gmaps", "geocode", "geocoder", "geocoding"],
-    "homepage": "https://github.com/jstayton/GoogleMapsGeocoder",
+    "homepage": "https://github.com/iCheques/GoogleMapsGeocoder",
     "license": "MIT",
     "authors": [
         {
             "name": "Justin Stayton",
             "homepage": "http://justinstayton.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Lucas Fernando Amorim",
+            "homepage": "http://github.com/lfamorim",
             "role": "Developer"
         }
     ],
