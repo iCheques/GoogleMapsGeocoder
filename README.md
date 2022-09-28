@@ -1,8 +1,8 @@
 GoogleMapsGeocoder
 ==================
 
-[![Latest Stable Version](https://poser.pugx.org/icheques/GoogleMapsGeocoder/v/stable.png)](https://packagist.org/packages/icheques/GoogleMapsGeocoder)
-[![Total Downloads](https://poser.pugx.org/icheques/GoogleMapsGeocoder/downloads.png)](https://packagist.org/packages/icheques/GoogleMapsGeocoder)
+[![Latest Stable Version](https://poser.pugx.org/icheques/google-maps-geocoder/v/stable.png)](https://packagist.org/packages/icheques/google-maps-geocoder)
+[![Total Downloads](https://poser.pugx.org/icheques/google-maps-geocoder/downloads.png)](https://packagist.org/packages/icheques/google-maps-geocoder)
 
 A PHP wrapper for the Google Maps Geocoding API v3.
 
@@ -24,17 +24,17 @@ Installation
 
 The recommended installation method is through
 [Composer](http://getcomposer.org/), a dependency manager for PHP. Just add
-`icheques/GoogleMapsGeocoder` to your project's `composer.json` file:
+`icheques/google-maps-geocoder` to your project's `composer.json` file:
 
 ```json
 {
     "require": {
-        "icheques/GoogleMapsGeocoder": "*"
+        "icheques/google-maps-geocoder": "*"
     }
 }
 ```
 
-[More details](http://packagist.org/packages/icheques/GoogleMapsGeocoder) can
+[More details](http://packagist.org/packages/icheques/google-maps-geocoder) can
 be found over at [Packagist](http://packagist.org).
 
 ### Manually
